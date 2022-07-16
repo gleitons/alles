@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Sans-serif;
+}
+.bbo {
+    
+}
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+header {
+    
+    background-color: #f4f4f4;
+}
+header div img {
+    border-radius: 50%;
+}
+.buttonC {    
+    margin-top: 18px;
+    width: 100%; 
+    text-align: center; 
+    
+   
+}
+a {
+    text-decoration: none;
+}
+.fale {
+    background-image: linear-gradient(to bottom, rgb(235, 48, 48), rgb(129, 4, 4));
+}
+.whats {
+    background-image: linear-gradient(to bottom, rgb(0, 146, 12), rgb(2, 65, 0));
+}
+.insta {
+    background-image: linear-gradient(to bottom, rgb(245, 72, 222), rgb(153, 0, 0));
+}
+.face {
+    background-image: linear-gradient(to bottom, rgb(1, 53, 197), rgb(1, 4, 179));
+}
+.uber {
+    background-image: linear-gradient(to bottom, rgb(0, 8, 31), rgb(0, 0, 0));
+}
+.iconClick {
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    width: 583px;
+    display: flex;   
+    align-items: center; 
+    color: white;
+    font-weight: 500;
+    gap: 20px;
+    border-radius: 8px;
+    border: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.507);
+    padding: 10px 142px;
+}
+.iconClick:hover {
+    filter: brightness(120%);
+}
+.iconClick:active {
+    filter: brightness(80%);
+}
+
+.iconClick  {       
+    margin: 0 auto;
+}
+main section {
+    background-color: white;
+}
+footer {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+}
+footer img {
+    width: 40%;
+   
+}
+.wht {
+    position: absolute;    
+    border: black solid 1px;
+    height: 20px;
+    display: flex;
+    width: 100%;
+    text-align: end;
+    bottom: 0;
+}
+.whtID {
+    position: fixed;
+    width: 250px;
+    bottom: -30px;
+    right: -10px;
+}
+@media (max-width: 1000px) {
+    body {
+        width: 100%;
+        
+    }
+    header {
+        width: 100%;
+    }
+    .iconClick {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 30px;
+        position: relative;
+        padding: 10px 142px;
+        width: 100%;
+        gap: 1px;
+       
+    }
+          
+    
+    .buttonC {
+        width: 60%;
+    }
+    main {
+        
+    }
+    .iconClick > i {
+        margin-left: -70px;
+        padding-left: 5px;
+        
+    }
+    .iconClick > h3 {
+        margin-left: 10px;
+        padding-left: 5px;
+        
+    }
+    footer {
+        width: 100%;
+    }
+    footer img{
+        width: 100%;
+    }
+    
+}
+    
+ 
