@@ -26,6 +26,17 @@ header div img {
     
    
 }
+.compra {
+    animation: compra 500ms infinite alternate-reverse linear;
+}
+@keyframes compra {
+    0% {
+        transform: scale(1.06);
+        transition: 1s;
+        background-image: linear-gradient(to bottom, rgb(12, 102, 182),rgb(6, 25, 131));
+        box-shadow:  rgb(12, 102, 182) 0px 0px 20px 10px;
+    }
+}
 a {
     text-decoration: none;
 }
@@ -34,6 +45,9 @@ a {
 }
 .whats {
     background-image: linear-gradient(to bottom, rgb(0, 146, 12), rgb(2, 65, 0));
+}
+.buy {
+    background-image: linear-gradient(to bottom, rgb(0, 78, 146), rgb(0, 10, 65));
 }
 .insta {
     background-image: linear-gradient(to bottom, rgb(245, 72, 222), rgb(153, 0, 0));
