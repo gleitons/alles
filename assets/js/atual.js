@@ -1,6 +1,12 @@
 
 
-const geral = () => { document.querySelector('#atualizado').innerHTML = `  <div class="buttonC ">
+const geral = () => { document.querySelector('#atualizado').innerHTML = ` 
+<a href="https://api.whatsapp.com/send?phone=555199572198&text=Olá, gostaria de saber mais sobre gôndolas para meu empreendimento!!" target="_blank">
+    <div>
+    <img src="./assets/img/compre-gondolas.gif" alt="">
+    </div> 
+</a>
+ <div class="buttonC ">
 <a href="https://api.whatsapp.com/send?phone=555180652808&text=Ol%C3%A1,%20gostaria%20de%20adquirir%20o%20dom%C3%ADnio%20https://www.allesestofados.com.br/" target="_blank">
     <button class="iconClick buy compra">
         <i class="bi bi-whatsapp"></i>
