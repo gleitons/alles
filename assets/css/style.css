@@ -26,6 +26,17 @@ header div img {
     
    
 }
+.propagandasOn {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 2em;
+}
+.produtosOnline {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
 .compra {
     animation: compra 500ms infinite alternate-reverse linear;
 }
@@ -113,6 +124,15 @@ footer img {
     body {
         width: 100%;
         
+    }
+    .propagandasOn {
+        display: block;
+       
+    }
+    .produtosOnline {
+        margin: auto;
+        text-align: center;
+        gap: 2px;
     }
     header {
         width: 100%;

@@ -123,5 +123,32 @@ const geral = () => { document.querySelector('#atualizado').innerHTML = `
 `
 }
 
-setTimeout('geral()', 4000)
+//setTimeout('geral()', 4000)
 
+async function produtos() {
+    const response = await fetch('/produto')
+    const data = await response.json()
+    const testApp = document.querySelector('#content')
+    const enderecoLink = location.href
+    const divTexto = document.createElement('div')
+    divTexto.classList.add('produtosOnline')
+    data.map((p) => {    
+        if(enderecoLink.includes('epis')){
+            
+        }
+        if(p.categoria == 'estofados'){
+            const divProduto = document.createElement('div')    
+            divProduto.innerHTML = p.codigo
+            divTexto.appendChild(divProduto)    
+            testApp.appendChild(divTexto)
+        }   
+        // const divProduto = document.createElement('div')    
+        // divProduto.innerHTML = p.codigo
+        // divTexto.appendChild(divProduto)
+
+        // testApp.appendChild(divTexto)
+
+    })
+}
+
+setTimeout('produtos()', 1000)
